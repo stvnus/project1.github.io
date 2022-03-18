@@ -18,9 +18,9 @@
     clear: left;
   }
   
+@media (max-width: 1000px) {), @media(max-width: 670px) {}
   .container {
-    /* Ubah max-width ke 1170px */
-    max-width:1170px;
+    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -232,4 +232,40 @@ input{
   
 .left-text-content{
   font-size: 20px;
+}
+footer img {
+    width: 175px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+footer p {
+    color: peru;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: left;
+    padding: 20px;
+
+
+}
+  
+footer {
+    background-color: bisque;
+    padding-top: 5px;
+    height: 125px;
+}
+
+footer a {
+    float: right;
+    padding: 20px;
+    display: flex;
+    color: peru;
+    font-weight: bold;
+}
+footer h1 {
+    clear: both;
+    text-align: center;
+    font-size: 10px;
 }
